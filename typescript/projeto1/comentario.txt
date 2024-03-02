@@ -1,0 +1,4 @@
+Nesse caso, o arquivo compilado (JS) ficou exatamente igual ao de origem (TS), 
+ja que nao usamos nenhuma sintaxe adicional do TS
+
+-> ao rodar o compilador (tsc) o arquiovo .js ficou igual

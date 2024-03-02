@@ -1,0 +1,8 @@
+no primeiro codigo, passamos somente um argumento na chamada da função invés de 2
+
+porem, mesmo com erro, o codigo é compilado para JS. Isso acontece pois no caso
+de migrações de aplicações grandes para o TS, não pode quebrar o que ja estava
+funcionando.  Porem é possivl impedir o compilamento em caso de erro com a flag
+--noEmitOnError
+
+ex: tsc --noEmitOnError saudacao.ts

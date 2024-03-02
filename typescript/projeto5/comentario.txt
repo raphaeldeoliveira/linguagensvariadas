@@ -1,0 +1,5 @@
+O TS sempre tenta usar recursos do ES3. Isso serve para navegadores nao atualizados
+possam rodar o recurso corretamente. Entao quando for escrito um recurso do ES5, 
+ao compilar, o TS vai tentar substituir por um recurso equivalente do ES3
+
+(nesse caso ele tira o template string (do ES5) e substitui pelo metodo .concat())

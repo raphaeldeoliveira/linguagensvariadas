@@ -1,0 +1,3 @@
+declaramos tipos de variaveis com o : seguido do tipos
+ex: nome: string
+   variavel - tipo
