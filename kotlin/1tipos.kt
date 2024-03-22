@@ -1,3 +1,5 @@
+// compilador online para teste: https://play.kotlinlang.org/
+
 fun main() {
     // tipos numericos 
     val a: Int = 10000
