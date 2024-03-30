@@ -3,7 +3,7 @@
 fun main() {
     // tipos numericos 
     val a: Int = 10000
-    val d: Double = 100.00
+    val d: Double = 100.00 
     val f: Float = 100.00f
     val l: Long = 1000000004
     val s: Short = 10
