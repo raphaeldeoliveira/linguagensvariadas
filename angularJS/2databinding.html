@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS Invoice</title>
+    <!-- Inclua o script do AngularJS do CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+
+<!-- Defina o aplicativo AngularJS usando a diretiva ng-app -->
+<div ng-app ng-init="qty=1;cost=2">
+    <b>Invoice:</b>
+    <div>
+        Quantity: <input type="number" min="0" ng-model="qty" >
+    </div>
+    <div>
+        Costs: <input type="number" min="0" ng-model="cost" >
+    </div>
+    <div>
+        <!-- Use expressões AngularJS para calcular e exibir o total -->
+        <b>Total:</b> {{qty * cost | currency}}
+    </div>
+</div>
+
+</body>
+</html>
