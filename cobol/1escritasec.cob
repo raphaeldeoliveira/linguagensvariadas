@@ -28,4 +28,3 @@ INICIO.
 OBTER-DETALHES-ESTUDANTE.
     DISPLAY "Digite - id, primeiro nome, iniciais, genero"
     ACCEPT DADOSESTUDANTE.
-    /* sadasdadsa */
