@@ -21,4 +21,4 @@ t = torch.from_numpy(n)
 # As alterações na matriz Numpy refletem no tensor
 np.add(n, 1, out=n)
 print(f"t: {t}")
-print(f"n: {n}")
+print(f"n:")
