@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.icp.org/jsf/html">
+<h:head>
+    <title>Exemplo Facelets</title>
+</h:head>
+<h:body>
+    <!-- Definição do formulário JSF -->
+    <h:form>
+        <!-- Componente de entrada de texto -->
+        <h:inputText value="#{userBean.name}" id="userName" required="true"
+                    requiredMessage="O nome é obrigatório." />
+        <h:message for="userName" style="color:red" />
+
+        <h:commandButton value="Enviar" action="#{userBean.submit}" />
+    </h:form>
+
+    <h:messages globalOnly="true" style="color:green" />
+    <h:outputText value="Bem-vindo #{userBean.name}!" rendered="#{not empty userBean.name}" />
+</h:body>
+</html>
