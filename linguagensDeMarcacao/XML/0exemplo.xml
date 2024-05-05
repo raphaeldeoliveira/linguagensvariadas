@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pontos_turisticos>
+    <ponto_turistico id="1">
+        <nome>Categral Metropolitada de Brasília</nome>
+        <arquiteto>Oscar Niemeyer</arquiteto>
+        <inauguracao>1970</inauguracao>
+        <descricao>A Catedral de Brasília</descricao>
+    </ponto_turistico>
+    <ponto_turistico id="2">
+        <nome>Palácio da Alvorada</nome>
+        <arquiteto>Oscar Niemeyer</arquiteto>
+        <inauguracao>1958</inauguracao>
+        <descricao>Residência oficial do Presidente da República</descricao>
+    </ponto_turistico>
+    <ponto_turistico id="3">
+        <nome>Palácio Itamaraty</nome>
+        <arquiteto>Oscar Niemeyer</arquiteto>
+        <inauguracao>1970</inauguracao>
+        <descricao>Sede do Ministerio das Relações Exteriores</descricao>
+    </ponto_turistico>
+</pontos_turisticos>

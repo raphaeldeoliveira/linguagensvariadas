@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <produto id="1234">
+        <nome>Caneta</nome>
+        <preco>1.50</preco>
+    </produto>
+</catalogo>

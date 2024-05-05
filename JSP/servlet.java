@@ -5,3 +5,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
     requestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/pagina.jsp");
     dispatcher.forward(request, response); // Encaminha para o JSP
 }
+
+
+
+
