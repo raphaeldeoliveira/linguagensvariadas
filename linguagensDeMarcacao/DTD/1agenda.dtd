@@ -1,0 +1,9 @@
+<!-- DTD para definir a estrutura de uma agenda -->
+<!DOCTYPE agenda [
+    <!-- A agenda contem um ou mais contatos -->
+    <!ELEMENT agenda (contato+)>
+    <!-- Cada contato possui um nome e um telefone -->
+    <!ELEMENT contato (nome, telefone)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+]>

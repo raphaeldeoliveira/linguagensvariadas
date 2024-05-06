@@ -1,0 +1,12 @@
+<!-- DTD para a estrutura de um catalogo de livros -->
+<!-- Definição do elemento livro com seus subelementos -->
+<!DOCTYPE livro[
+    <!ELEMENT livro (titulo, autor, ano)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT ano (#PCDATA)>
+    <!-- Atributos do elemento livro -->
+    <!ATTLIST livro
+    id ID #REQUIRED
+    categoria CDATA #IMPLIED>
+]>

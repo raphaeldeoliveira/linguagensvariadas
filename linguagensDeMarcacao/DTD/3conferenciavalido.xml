@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE conferencia SYSTEM "3conferencia.dtd" >
+<conferencia>
+    <sessao id="S001" data="2023-10-15" sala="101">
+        <titulo>Inteligencia Artificial na Saude</titulo>
+        <palestrante palestrante_id="P001" afiliacao="Universidade X">
+            <nome>Dr. Alice Martins</nome>
+            <biografia>PhD em IA</biografia>
+            <temas>
+                <tema>Aplicações de Ia em diagnostico</tema>
+            </temas>
+        </palestrante>
+        <participante participante_id="PT001" registrado="sim">
+            <nome>Maria Silva</nome>
+            <email>maria.silva@email.com</email>
+        </participante>
+    </sessao>
+</conferencia>

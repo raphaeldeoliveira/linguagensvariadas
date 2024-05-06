@@ -1,0 +1,22 @@
+<!DOCTYPE conferencia [
+    <!ELEMENT conferencia (sessao+)>
+    <!ELEMENT sessao (titulo, palestrante+, participante*)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT palestrante (nome, biografia, temas)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT biografia (#PCDATA)>
+    <!ELEMENT temas (tema+)>
+    <!ELEMENT tema (#PCDATA)>
+    <!ELEMENT participante (nome, email?)>
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST sessao
+        id ID #REQUIRED
+        data CDATA #REQUIRED
+        sala CDATA #IMPLIED>
+    <!ATTLIST palestrante
+        palestrante_id ID #REQUIRED
+        adiliacao CDATA #REQUIRED>
+    <!ATTLIST participante
+        participante_id ID #REQUIRED
+        registrado (sim|nao) "nao">
+]>

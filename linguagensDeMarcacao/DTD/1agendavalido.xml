@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!-- Vinculo com "agenda.dtd" -->
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <contato>
+        <nome>Agenor de Miranda</nome>
+        <telefone>123465789</telefone>
+    </contato>
+    <contato>
+        <nome>Emival Costa</nome>
+        <telefone>987654321</telefone>
+    </contato>
+</agenda>

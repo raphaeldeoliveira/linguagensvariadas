@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!-- Vinculo com "livro.dtd" -->
+<!DOCTYPE livro SYSTEM "livro.dtd">
+<livro id="001" categoria="Romance">
+    <titulo>Os Supridores</titulo>
+    <autor>José Falero</autor>
+    <ano>2020</ano>
+</livro>
