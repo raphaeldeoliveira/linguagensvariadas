@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.example.org/filmService">
+    <soap:Header>
+        <m:Authentication>
+            <m:Token>12345abcdeTOKEN</m:Token>
+        </m:Authentication>
+    </soap:Header>
+    <soap:Body>
+        <m:GetFilmDetails>
+            <m:Title>Cidade de Deus</m:Title>
+        </m:GetFilmDetails>
+    </soap:Body>
+</soap:Envelope>

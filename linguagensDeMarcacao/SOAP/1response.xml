@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.example.org/filmService">
+    <soap:Body>
+        <m:GetFilmDetailsResponse>
+            <m:FilmDetails>
+                <m:Title>Cidade de Deus</m:Title>
+                <m:Director>Fernando Meirelles</m:Director>
+                <m:Year>2002</m:Year>
+                <m:Genre>Drama, Crime</m:Genre>
+            </m:FilmDetails>
+        </m:GetFilmDetailsResponse>
+    </soap:Body>
+</soap:Envelope>

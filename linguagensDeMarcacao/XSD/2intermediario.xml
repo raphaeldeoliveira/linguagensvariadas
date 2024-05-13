@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<aluno id="A001">
+    <nome>João Silva</nome>
+    <idade>20</idade>
+</aluno>

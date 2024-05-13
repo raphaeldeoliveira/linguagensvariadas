@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<soap:Envelope>
+    <soap:Header>
+        <m:Authentication>
+            <m:Token>12345abcdeTOKEN</m:Token>
+        </m:Authentication>
+    </soap:Header>
+    <soap:Body>
+        <m:GetFilmDetails>
+            <m:Title>Tropa de Elite 3</m:Title>
+        </m:GetFilmDetails>
+    </soap:Body>
+</soap:Envelope>

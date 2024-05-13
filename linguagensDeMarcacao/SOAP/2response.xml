@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<soap:Envelope>
+    <soap:Body>
+        <soap:Fault>
+            <faultcode>soap:Client</faultcode>
+            <faultstring>Movie not found</faultstring>
+            <detail>
+                <m:ErrorDetails>
+                    <m:ErrorMessage>
+                        The requested movie 'Tropa de Elite 3' is not available in our database
+                    </m:ErrorMessage>
+                    <m:ErrorCode>404</m:ErrorCode>
+                </m:ErrorDetails>
+            </detail>
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>
