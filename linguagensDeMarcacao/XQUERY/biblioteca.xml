@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<biblioteca>
+    <livro id="1">
+        <titulo>Capão Pecado</titulo>
+        <autor>Ferréz</autor>
+        <ano>2000</ano>
+        <categoria>Literatura Nacional</categoria>
+    </livro>
+    <livro id="2">
+        <titulo>Quarto de Despejo</titulo>
+        <autor>Carolina Maria de Jesus</autor>
+        <ano>1960</ano>
+        <categoria>Biografia</categoria>
+    </livro>
+    <livro id="3">
+        <titulo>Bagagem</titulo>
+        <autor>Adélia Prado</autor>
+        <ano>1976</ano>
+        <categoria>Poesia</categoria>
+    </livro>
+    <livro id="4">
+        <titulo>Vila Sapo</titulo>
+        <autor>José Falero</autor>
+        <ano>2022</ano>
+        <categoria>Literatura Nacional</categoria>
+    </livro>
+</biblioteca>
