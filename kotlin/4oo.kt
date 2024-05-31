@@ -1,4 +1,3 @@
-
 // principio da herança
 import java.util.Arrays
 open class ABC {

@@ -1,0 +1,8 @@
+nome: João Silva
+idade: 30
+casado: sim
+filhos:
+  - nome: Ana
+    idade: 10
+  - nome: Pedro
+    idade: 7

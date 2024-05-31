@@ -3,7 +3,7 @@ int x = 9;
 if (x % 3 == 0) {
     Console.WriteLine("sim");
 } else {
-    Console.WriteLine("sim");
+    Console.WriteLine("não");
 }
 
 // FOR

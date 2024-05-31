@@ -7,7 +7,7 @@ class OperadoresLogicos {
 
         // AND Logical Operator
         bool resultAND = a && b;    // False
-        bool resultAND2 = a && c; q // True
+        bool resultAND2 = a && c;   // True
 
         // OR Logical Operator
         bool resultOR = a || b; // True
