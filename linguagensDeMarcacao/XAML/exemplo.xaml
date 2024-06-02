@@ -1,0 +1,16 @@
+<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exemplo de XAML" Height="200" Width="400">
+    <Grid>
+        <Label Content="Nome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox Name="NomeTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,10,0,0" Width="300"/>
+        
+        <Label Content="Sobrenome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox Name="SobrenomeTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,50,0,0" Width="300"/>
+        
+        <Button Content="Mostrar Saudação" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="150" Click="MostrarSaudacao_Click"/>
+        
+        <Label Name="SaudacaoLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0" Width="350"/>
+    </Grid>
+</Window>
