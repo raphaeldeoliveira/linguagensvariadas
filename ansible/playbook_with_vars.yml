@@ -1,0 +1,12 @@
+---
+
+- hosts: all                  # Define que as tarefas serão executadas em todos os hosts listados no inventário
+  become: true                # Faz com que as tarefas sejam executadas com privilégios de superusuário (sudo)
+  vars:                       # Definindo variáveis
+    package: vim              # Variável package com valor 'vim'
+  tasks:
+    - name: Install Package   # Descrição da tarefa
+      apt:                    # Usando o módulo apt
+        name: "{{ package }}" # Data binding: usa a variável 'package'
+        state: latest         # Tenta instalar a última versão do pacote especificado
+  # O uso de variáveis permite reutilização e flexibilidade no playbook.

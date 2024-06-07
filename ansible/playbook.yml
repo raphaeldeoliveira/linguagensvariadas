@@ -1,0 +1,14 @@
+---
+
+- hosts: all                  # Define que as tarefas serão executadas em todos os hosts listados no inventário
+  become: true                # Faz com que as tarefas sejam executadas com privilégios de superusuário (sudo)
+  tasks:
+    - name: Update apt-cache  # Descrição da tarefa
+      apt:                    # Usando o módulo apt
+        update_cache: yes     # Atualiza o cache do apt
+
+    - name: Install Vim       # Descrição da tarefa
+      apt:                    # Usando o módulo apt
+        name: vim             # Pacote a ser instalado
+        state: latest         # Tenta instalar a última versão do vim
+  # YAML precisa da indentação correta para ser interpretado corretamente pelo Ansible.

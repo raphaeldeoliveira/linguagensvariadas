@@ -1,0 +1,7 @@
+---
+
+- name: Esta é uma task       # Descrição da tarefa que aparecerá no log
+  apt:                        # Usando o módulo apt para gerenciar pacotes em sistemas Debian-based
+    name: vim                 # Pacote a ser instalado
+    state: latest             # Tenta instalar a última versão do vim
+  # A linha acima significa o estado desejado. O Ansible verifica se o pacote já está instalado antes de tentar instalá-lo.
